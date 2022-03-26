@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>변환</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./main.js"></script>
+</head>
+
+<body>
+  <h1>***************변환*************</h1>
+  <p>
+    <h2>변환</h2>
+    <h4>요소의 변환 효과</h4>
+    transform: 변환함수1 변환함수2 변환함수3 ...;
+    <br>
+    transform: 원근법 이동 크기 회전 기울임;
+    <h4>2D 변환 함수</h4>
+    px단위
+    <br>
+    <br>
+    translate(x,y) 이동(x축, y축)
+    <br>
+    translateX(x) 이동(x축)
+    <br>
+    translateY(y) 이동(y축)
+    <br>
+    <br>
+    없음(배수)
+    <br>
+    <br>
+    scale(x,y) 크기(x축, y축)
+    <br>
+    scale(x) 크기(x축)
+    <br>
+    scale(y) 크기(y축)
+    <br>
+    <br>
+    deg단위
+    <br>
+    <br>
+    rotate(degree) 회전(각도)
+    <br>
+    skew(x,y) 기울임(x축, y축)
+    <br>
+    skewX(x) 기울임(x축)
+    <br>
+    skewY(y) 기울임(y축)
+    <br>
+    <br>
+    matrix(n,n,n,n,n,n) 2차원 변환 효과
+    <h4>3D 변환 함수</h4>
+    px단위
+    <br>
+    <br>
+    translateZ(z) 이동(z축)
+    <br>
+    translate3d(x,y,z) 이동(x축,y축,z축)
+    <br>
+    perspective(n) 원근법(거리)
+    <br>
+    <br>
+    없음(배수)
+    <br>
+    <br>
+    scaleZ(z) 크기(z축)
+    <br>
+    scale3d(x,y,z) 크기(x축,y축,z축)
+    <br>
+    <br>
+    deg
+    <br>
+    <br>
+    rotateX(x) 회전(x축)
+    <br>
+    rotateY(y) 회전(y축)
+    <br>
+    rotateZ(z) 회전(z축)
+    <br>
+    rotate3d(x,y,z,a) 회전(x축,y축,z축, 각도)
+    <br>
+    <br>
+    matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n) 3차원 변환 효과
+    <h4>하위 요소를 관찰하는 원근 거리를 지정</h4>
+    perspective
+    <br>
+    <br>
+    단위 px등 단위로 지정
+    <h4>perspective 속성과 함수의 차이점</h4>
+    속성/함수
+    <br>
+    <br>
+    속성 perspective: 600px; 적용 대상: 관찰 대상의 부모 기준점 설정: perspective-orgin
+    <br>
+    함수 transform: perspective(600px) 적용 대상: 관찰대상 기준점 설정: transform-orgin
+    <h4>3D 변환으로 회전된 요소의 뒷면 숨김 여부</h4>
+    backface-visibilty
+    <br>
+    <br>
+    visible 뒷면 보임
+    <br>
+    hidden 뒷면 숨김
+  </p>
+  <a href="../index.html">Home</a>
+</body>
+
+</html>
