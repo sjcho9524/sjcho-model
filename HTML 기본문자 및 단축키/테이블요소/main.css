@@ -1,0 +1,17 @@
+h1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: royalblue;
+}
+li {
+  width: auto;
+  height: 100px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
